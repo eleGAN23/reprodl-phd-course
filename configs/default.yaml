@@ -19,3 +19,7 @@ trainer:
   gpus: 1
   max_epochs: 10
   fast_dev_run: True
+
+  defaults:
+    - hydra/job_logging: colorlog
+    - hydra/hydra_logging: colorlog
